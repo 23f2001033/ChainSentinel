@@ -1,0 +1,4 @@
+chronos-forecasting>=2.0
+torch>=2.2
+numpy
+matplotlib
