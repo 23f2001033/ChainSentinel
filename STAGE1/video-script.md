@@ -27,6 +27,21 @@
 
 ---
 
+## Shooting order (screen recording, one take)
+
+| # | Time | On screen | You say (script section) |
+|---|------|-----------|--------------------------|
+| 0 | prep | — | Pre-run `demo/chainsentinel_demo.py` once (caches the Chronos-2 download so the on-camera run is fast). Open: deck in slideshow mode, VS Code with the demo file, `out/fan_chart.png`, `out/risk_board.png`. Hide notifications, close other apps, 1080p. |
+| 1 | 0:00–0:10 | Slide 1 (title) | Hook, first two sentences ("On a data-center build…") |
+| 2 | 0:10–0:20 | Slide 3 (two timelines) | Rest of the hook ("That single miss cascades… 98%… 70%") |
+| 3 | 0:20–0:45 | Slide 2 (stats) | Problem section, end on "That's ChainSentinel — our entry in the Supply Chain track" |
+| 4 | 0:45–0:55 | Slide 4 (loop) | First half of solution section ("forecasts delay, cost, demand and risk… zero-shot…") |
+| 5 | 0:55–1:20 | VS Code: run the forecast cell → risk table prints → open fan_chart.png, hover cursor on the 62% callout | "…Here it is running: quantile forecast, and a risk score that's a real probability" |
+| 6 | 1:20–1:45 | Slide 7 (memory + agent recall card); flash risk_board.png if pace allows | Agent + memory section |
+| 7 | 1:45–2:00 | Slide 10 (team) | Close ("We're Team Perceptron…") |
+
+Rehearse twice, target 1:55. Export MP4 → upload **unlisted YouTube** (Devpost's video field does not accept Loom) → paste URL in Devpost.
+
 ## Recording notes
 - Record screen + voiceover in Loom or OBS; upload unlisted YouTube or Loom link
 - The ONLY live demo element needed: a notebook cell running Chronos-2 on a simulated lead-time series showing a quantile fan chart (person 1 builds this first — it's also Stage 2 groundwork)
